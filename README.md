@@ -1,47 +1,70 @@
-# CataBlog
+# Getting Started with Create React App
 
-# Setup
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-## Node Installation
+In the project directory, you can run:
 
-Check if you have node installed by running the following code in Terminal:
+### `npm start`
 
-`node -v`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-If a version pops up, skip the following step. Otherwise, install Node from the following site:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-https://nodejs.org/en
+### `npm test`
 
-Download the LTS file for your correct operating system and follow the installation steps.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Visual Studio Code
+### `npm run build`
 
-Just google it
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-# Get Started
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Starting a React Project
+### `npm run eject`
 
-In Terminal, navigate to the folder where you want your project stored.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-To do this, use the `cd` command.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-For example, to access the documents folder, run `cd Documents`.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-To create a file, use `mkdir Filename`.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-#### Navigation Commands Summary
-| Instruction |  Command|
-|--|--|
-| Navigate to a file | `cd filename` |
-| Navigate backward | `cd ..`|
-| Create Folder|`mkdir filename`|
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Once you are navigated into the correct folder, run the following command to create your react app:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-`npx create-react-app catablog`
+### Code Splitting
 
-Then, open up the catablog folder that was just created in VSCode.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
