@@ -8,6 +8,8 @@ const Home = () => {
     { title: 'How to become a Leetcode God', body: 'lorem ipsum...', author: 'Lavish', id: 3 },
   ]);
 
+  const [name, setName] = useState('Bharat');
+
   const handleDelete = (id) => {
     const newBlogs = blogs.filter((blog) => blog.id !== id);
     setBlogs(newBlogs);
@@ -15,12 +17,15 @@ const Home = () => {
 
   useEffect(() => {
     console.log('useEffect ran');
-    console.log(blogs);
-  });
+    //console.log(blogs);
+    console.log(name);
+  }, [name]);
 
   return (
     <div className='home'>
       <BlogList blogs={blogs} title='All Blogs!' handleDelete={handleDelete} />
+      <button onClick={() => setName('Jacob')}>Change Name</button>
+      <p>{name}</p>
     </div>
   );
 };
