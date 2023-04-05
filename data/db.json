@@ -1,0 +1,21 @@
+{
+  "blogs": [
+    { 
+      "title": "Blockchain is the Future", 
+      "body": "Blockchain brother Bharat here to explain the power of blockchain!\nBlockchain blockchain blockchain!", 
+      "author": "Bharat", 
+      "id": 1 
+    },
+    { 
+      "title": "Fratalyst", 
+      "body": "Fratalyst: Duke’s premier social and pre-professional tech organization.", 
+      "author": "Frankie",
+      "id": 2 
+    },
+    { 
+      "title": "How to become a Leetcode God", "body": "Get on my level", 
+      "author": "Lavish", 
+      "id": 3 
+    }
+  ]
+}
